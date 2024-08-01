@@ -3,11 +3,15 @@ It has two buttons: Contact button that directs to the contact page and Pay butt
 */
 Vue.component("bottom_bar_component_1722491140", {
     template: `
-    <section id="bottom-bar-component" class="fixed bottom-0 z-30 w-full lg:w-1/2 !bg-opacity-80 backdrop-blur-sm bg-white dark:bg-slate-950">
-        <div id="bottom-bar-component-content" class="w-full max-w-xl mx-auto px-4 sm:px-6">
-            <div id="action-buttons" class="flex py-4 md:py-6 space-x-4 justify-center">
-                <a id="contact-button" class="btn flex items-center justify-center w-1/2 h-12 p-3 text-slate-900 dark:text-slate-200 dark:bg-slate-900 rounded-lg hover:border-slate-300 dark:border-slate-800 dark:hover:border-slate-700 border shadow-lg transition duration-200 ease-in-out" href="contact.html">Contact</a>
-                <a id="pay-button" class="btn flex items-center justify-center w-1/2 h-12 p-3 animate-shine bg-[size:200%_100%] hover:bg-[image:none] transition duration-200 ease-in-out shadow-lg text-white bg-blue-500 hover:bg-blue-600 rounded-lg bg-[linear-gradient(100deg, theme(colors.blue.500), 45%, theme(colors.blue.400), 55%, theme(colors.blue.500))] rounded-lg">Pay</a>
+    <section id="bottom-bar-component" class="fixed bottom-0 z-30 w-full lg:w-1/2 bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-500 bg-opacity-30 backdrop-filter backdrop-blur-lg border border-opacity-20 border-white rounded-t-3xl shadow-lg">
+        <div id="bottom-bar-component-content" class="w-full max-w-xl mx-auto px-6 py-6">
+            <div id="action-buttons" class="flex space-x-6 justify-center">
+                <a id="contact-button" class="btn flex items-center justify-center w-1/2 h-14 p-4 text-white font-semibold text-lg bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl hover:from-pink-600 hover:to-purple-700 transform hover:scale-105 transition duration-300 ease-in-out shadow-md" href="contact.html">
+                    <i class='bx bx-envelope mr-2'></i>Contact
+                </a>
+                <a id="pay-button" class="btn flex items-center justify-center w-1/2 h-14 p-4 text-white font-semibold text-lg bg-gradient-to-r from-purple-500 to-indigo-600 rounded-2xl hover:from-purple-600 hover:to-indigo-700 transform hover:scale-105 transition duration-300 ease-in-out shadow-md">
+                    <i class='bx bx-credit-card mr-2'></i>Pay
+                </a>
             </div>
         </div>
     </section>
